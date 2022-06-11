@@ -13,4 +13,4 @@
 
 <p>Landind page sobre o livro "O homem mais rico da Babilônia Capa comum". Projeto feito com o uso da linguagem de extensão do CSS, o Sass. Projeto totalmente responsivo!
 
-![Página] (https://github.com/henriquepx/landingpage_book/blob/main/assets/bookpage.png)
+![Página](https://github.com/henriquepx/landingpage_book/blob/main/assets/bookpage.png)
