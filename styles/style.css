@@ -1,0 +1,227 @@
+html,
+body {
+  background: #ccc6bd;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 3rem 10rem;
+}
+
+main .info {
+  padding-right: 3rem;
+}
+
+main .info h3 {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+}
+
+main .info p {
+  font-size: 1.42857rem;
+  line-height: 1.6;
+  max-width: 80ch;
+}
+
+main .info .bestseller {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+main .info .avaliacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+main .info .avaliacao p {
+  font-size: 1.2rem;
+}
+
+main .info .avaliacao a {
+  display: inline;
+  margin-right: 3rem;
+  background-color: #cd951c;
+  padding: 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #271e21;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 20%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header p {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 1rem;
+}
+
+header nav ul li:hover {
+  text-decoration: underline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #271e21;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header p {
+    text-align: center;
+  }
+  header nav ul li {
+    margin: 1rem 0rem;
+  }
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem;
+  }
+  main .info {
+    padding-right: 0rem;
+  }
+  main .info .avaliacao {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .info img {
+    width: 50%;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header p {
+    text-align: center;
+  }
+  header nav ul li {
+    margin: 1rem;
+  }
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem;
+  }
+  main .info {
+    padding-right: 0rem;
+  }
+  main .info .avaliacao {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  main .info .avaliacao a {
+    width: 150px;
+  }
+  main img {
+    width: 80%;
+    margin: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header p {
+    text-align: center;
+  }
+  header nav ul li {
+    margin: 10rem;
+  }
+  main {
+    padding: 1rem;
+  }
+  main .info {
+    padding-right: 0rem;
+  }
+  main .info .avaliacao {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  main .info .avaliacao a {
+    width: 150px;
+  }
+  img {
+    width: 33%;
+    margin: 15rem 5rem 5rem 5rem;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  main .info .avaliacao {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main img {
+    width: 20%;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

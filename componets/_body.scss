@@ -1,0 +1,46 @@
+@import "../abstract/variaveis";
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 10rem;
+  .info {
+    padding-right: 3rem;
+    h3 {
+      font-size: $tamanho-da-font / 1.5;
+      font-family: $font-2;
+    }
+    p {
+      font-size: $tamanho-da-font / 2.1;
+      line-height: 1.6;
+      max-width: 80ch;
+    }
+    .bestseller {
+      font-family: $font-1;
+      font-size: $tamanho-da-font / 2.5;
+    }
+    .avaliacao {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      p {
+        font-size: $tamanho-da-font / 2.5;
+      }
+      a {
+        display: inline;
+        margin-right: 3rem;
+        background-color: $cor-3;
+        padding: 1.5rem;
+        border-radius: 30px;
+        text-decoration: none;
+        color: $cor-2;
+        font-family: $font-1;
+      }
+    }
+  }
+}
+img {
+  width: 20%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
